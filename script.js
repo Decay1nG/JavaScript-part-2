@@ -1,25 +1,14 @@
 "use strict";
 
-let numberOfFilms;
-
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
-
+// =========================--------------||| Снизу функции |||--------------=========================
 // функция к кол-ву фильмов
-
 function start() {
     numberOfFilms = +prompt('Сколько фильмов вы посмотрели?', '');
-
     while (numberOfFilms == '' || numberOfFilms == null || isNaN(numberOfFilms)) {
+
         numberOfFilms = +prompt('Сколько фильмов вы посмотрели?', '');
     }
 }
-
 // функция к коммуникации с пользователем
 function RememberMyFilms() {
     for (let i = 0; i < 2; i++) {
@@ -32,7 +21,6 @@ function RememberMyFilms() {
         personalMovieDB.movies [answer] = answer2;
     }
 }
-
 // функция к оценке пользователя
 function detectPersonalLevel() {
     if (personalMovieDB ["count"] < 10) {
@@ -42,26 +30,36 @@ function detectPersonalLevel() {
     } else if (personalMovieDB ["count"] > 30) {
         alert ('Вы киноман');
     } else {
-        alert('хуй')
+        alert('ошибка')
     }
 }
-
 // функция к проверке привата
 function showMyDB() {
     if (personalMovieDB.privat == false) {
         console.log(personalMovieDB)
     }
 }
-
 // функция к топу жанров
 function writeYourGenres() {
     for (let i = 1; i <= 3; i++) {
         personalMovieDB.genres [i - 1] = prompt(`Ваш любимый жанр под номером ${i}`, '');
     }
 }
+// =========================--------------||| Сверху функции |||--------------=========================
 
+
+let numberOfFilms;
 
 start();
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
+
 
 RememberMyFilms();
 
