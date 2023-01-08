@@ -75,4 +75,3 @@ personalMovieDB.writeYourGenres();
 
 console.log(personalMovieDB);
 
-//хуй
