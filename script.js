@@ -15,11 +15,12 @@ const personalMovieDB = {
         for (let i = 0; i < 2; i++) {
             const answer = prompt('Один из последних просмотренных фильмов?', '');
             const answer2 = +prompt('На сколько оцените его', '');
-            if ((answer == false || answer2 == false) || (answer === null || answer2 === null) || (answer.length > 10)) {
-                --i;
+            if (answer != null && answer2 != null && answer != '' && answer2 != '' && (answer.length > 10)) {
+                personalMovieDB.movies [answer] = answer2;
+            } else {
+                i = 0;
                 console.log('Error');
             }
-            personalMovieDB.movies [answer] = answer2;
         }
     },
     detectPersonalLevel: function () {
@@ -71,11 +72,5 @@ personalMovieDB.detectPersonalLevel();
 personalMovieDB.showMyDB();
 
 personalMovieDB.writeYourGenres();
-
-
-
-
-
-
 
 console.log(personalMovieDB);
