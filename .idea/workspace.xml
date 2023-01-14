@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d0659c9-d7a5-48ec-b8a4-43dd7faeb6b1" name="Changes" comment="" />
+    <list default="true" id="6d0659c9-d7a5-48ec-b8a4-43dd7faeb6b1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +22,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -39,6 +44,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/decay1ng/PhpstormProjects/project place&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -68,7 +74,14 @@
       <workItem from="1672924802627" duration="5361000" />
       <workItem from="1673011488336" duration="1405000" />
       <workItem from="1673087202094" duration="5965000" />
-      <workItem from="1673151429358" duration="8351000" />
+      <workItem from="1673151429358" duration="9010000" />
+      <workItem from="1673168817258" duration="4007000" />
+      <workItem from="1673231936485" duration="2963000" />
+      <workItem from="1673318343182" duration="10106000" />
+      <workItem from="1673404333438" duration="3879000" />
+      <workItem from="1673410472529" duration="4754000" />
+      <workItem from="1673525681966" duration="5637000" />
+      <workItem from="1673697147528" duration="413000" />
     </task>
     <servers />
   </component>
