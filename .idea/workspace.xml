@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6d0659c9-d7a5-48ec-b8a4-43dd7faeb6b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practic/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/practic/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practic/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/practic/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/decay1ng/PhpstormProjects/project place&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/decay1ng/PhpstormProjects/project place/practic&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -54,6 +55,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/practic" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,11 +87,24 @@
       <workItem from="1673404333438" duration="3879000" />
       <workItem from="1673410472529" duration="4754000" />
       <workItem from="1673525681966" duration="5637000" />
-      <workItem from="1673697147528" duration="413000" />
+      <workItem from="1673697147528" duration="1478000" />
+      <workItem from="1673758508261" duration="11252000" />
+      <workItem from="1673841481310" duration="17296000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
