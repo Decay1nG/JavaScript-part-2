@@ -23,28 +23,29 @@ let students = {
     }
 };
 
-function getTotalProgressByIteration(data) {
-    let totalProgress = 0;
-    let studentNumber = 0;
+function getTotalProgressByRecursion(data) {
+    if (Array.isArray(data)) {
+        let totalProgress = 0;
 
-    for (const course of Object.values(data)) {
-        if (Array.isArray(course)) {
-            studentNumber += course.length;
-            for (let i = 0; i < course.length; i++) {
-                totalProgress += course[i].progress;
-            }
-        } else {
-            for (const subcourse of Object.values(course)) {
-                studentNumber += subcourse.length;
-                for (let i = 0; i < subcourse.length; i++) {
-                    totalProgress += subcourse[i].progress;
-                }
-            }
+        for (let i = 0; i < data.length; i++) {
+            totalProgress += data[i].progress;
         }
-    }
 
-    return totalProgress / studentNumber;
+        return [totalProgress, data.length];
+    } else {  //если содержимое контейнера с данными - не массив, то выполнить следующее
+        let totalProgress = [0, 0]; // создаем контейнер с двумя значениями
+
+        for (let subData of Object.values(data)) {  // для значений в обьекте:
+            const subDataArr = getTotalProgressByRecursion(subData); //
+            totalProgress[0] += subDataArr[0];
+            totalProgress[1] += subDataArr[1];
+        }
+
+        return totalProgress;
+    }
 }
 
-console.log(getTotalProgressByIteration(students));
-console.log(Object.values(students));
+const result = getTotalProgressByRecursion(students);
+console.log(result[0] / result[1]);
+console.log(result[0], result[1])
+console.log(Object.values(students))
