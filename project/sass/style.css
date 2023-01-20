@@ -258,4 +258,20 @@
   margin-bottom: 10px;
 }
 
+.promo__interactive-item:hover {
+  color: #FFD500;
+}
+.promo__interactive-item:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background: url("../icons/trash.png") center center/cover no-repeat;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */
